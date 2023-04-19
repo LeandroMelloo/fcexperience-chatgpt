@@ -1,3 +1,4 @@
 Comandos GOLANG
 go mod init github.com/LeandroMelloo/fcexperience-chatgpt
 go mod tidy
+go install github.com/kyleconroy/sqlc/cmd/sqlc@latest
