@@ -8,5 +8,5 @@ sql:
         package: 'db'
         out: 'internal/infra/db'
         overrides:
-          - db_types: 'decimal'
+          - db_type: 'decimal'
             go_type: 'float64'

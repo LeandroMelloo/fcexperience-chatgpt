@@ -2,3 +2,7 @@ Comandos GOLANG
 go mod init github.com/LeandroMelloo/fcexperience-chatgpt
 go mod tidy
 go install github.com/kyleconroy/sqlc/cmd/sqlc@latest
+
+Comandos MIGRATE
+migrate create -ext=mysql -dir=sql/migrations -seq init
+sqlc generate
